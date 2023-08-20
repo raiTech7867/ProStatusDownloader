@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/md_theme_light_onSecondary"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_layout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:cardBackgroundColor="@color/md_theme_light_onSecondary"
+        app:cardCornerRadius="10dp"
+        android:outlineAmbientShadowColor="@color/custom_color"
+        android:outlineSpotShadowColor="@color/custom_color"
+        android:layout_margin="15dp"
+        android:layout_centerHorizontal="true"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop" />
+
+            <ImageButton
+                android:id="@+id/btn_download"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_alignParentRight="true"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:src="@drawable/download"
+                android:scaleType="fitCenter"
+                android:layout_alignParentBottom="true"
+                />
+
+            <ImageView
+                android:id="@+id/img_play"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"
+                android:src="@android:drawable/ic_media_play"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+    android:background="@color/md_theme_light_onSecondary"
+    android:layout_below="@+id/card_layout"
+  />
+</RelativeLayout>

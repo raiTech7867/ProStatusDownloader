@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/whatsapp_business"
+    app:startDestination="@id/imageWABFragment">
+
+    <fragment
+        android:id="@+id/imageWABFragment"
+        android:name="com.raitech.statussaver.fragment.ImageWABFragment"
+        android:label="ImageWABFragment" />
+    <fragment
+        android:id="@+id/videoWABFragment"
+        android:name="com.raitech.statussaver.fragment.VideoWABFragment"
+        android:label="fragment_video_w_a_b"
+        tools:layout="@layout/fragment_video_w_a_b" />
+    <fragment
+        android:id="@+id/WABStatusFragment"
+        android:name="com.raitech.statussaver.fragment.WABStatusFragment"
+        android:label="fragment_w_a_b_status"
+        tools:layout="@layout/fragment_w_a_b_status" />
+
+</navigation>

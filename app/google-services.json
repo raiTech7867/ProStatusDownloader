@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "526838760999",
+    "firebase_url": "https://myfirebaseauthapp-51e51.firebaseio.com",
+    "project_id": "myfirebaseauthapp-51e51",
+    "storage_bucket": "myfirebaseauthapp-51e51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526838760999:android:0607b3f9dafc139d2bf002",
+        "android_client_info": {
+          "package_name": "com.raitech.festivalnitification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526838760999-ehok02qr508dki72d7qrpmfon6ee51pp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR9R2b8DINsp_4B_L5zHAfZnMf5g_GVLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526838760999-ehok02qr508dki72d7qrpmfon6ee51pp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526838760999:android:dfe5bbd304fc3f8e2bf002",
+        "android_client_info": {
+          "package_name": "com.raitech.statussaver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526838760999-ehok02qr508dki72d7qrpmfon6ee51pp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR9R2b8DINsp_4B_L5zHAfZnMf5g_GVLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526838760999-ehok02qr508dki72d7qrpmfon6ee51pp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
